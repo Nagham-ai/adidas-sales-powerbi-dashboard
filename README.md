@@ -2,7 +2,7 @@
 
 An end-to-end Power BI project that turns raw Adidas US retail sales data into a clean **Star Schema** model and a single-page interactive dashboard covering sales, profitability, products, regions, retailers and sales channels.
 
-![Dashboard](dashboard.png)
+![Dashboard](dashboard.png.png)
 
 > **Tools:** Power BI Desktop · Power Query (M) · DAX · Excel (data source)
 
@@ -63,7 +63,7 @@ The dashboard was designed to answer:
 
 The model follows a **Star Schema**: one fact table in the center and dimension tables around it. Every relationship is **One-to-Many** with **Single** filter direction, flowing from the dimension to the fact table.
 
-![Data Model](data_model.png)
+![Data Model](data_model.png.png)
 
 ```
  Dim_Product ──┐
